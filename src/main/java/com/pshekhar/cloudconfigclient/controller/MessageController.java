@@ -21,6 +21,6 @@ public class MessageController {
         return Mono.just(ResponseEntity
                 .ok()
                 .contentType(MediaType.TEXT_PLAIN)
-                .body("App: " + env.getProperty("app.message") + "\nRCS: " + env.getProperty("rcs.message")));
+                .body("App: " + env.getProperty("app.message") + "\nRCS: " + env.getProperty("message")));
     }
 }

@@ -5,6 +5,8 @@ spring:
     config:
       username: admin
       password: s3cr3tpa55word
+      label: v1
+      profile: dev
   config:
     import: optional:configserver:http://localhost:8888
 
@@ -17,4 +19,4 @@ management:
 
 # app properties
 app:
-  message: Hello from App
+  message: Hello from App, new day!
